@@ -1,0 +1,49 @@
+import React from 'react'
+import frame1 from '../components/assets/Frame 11.png'
+import frame2 from '../components/assets/Frame 12.png'
+import frame3 from '../components/assets/Frame 13.png'
+
+
+function Who() {
+  return (
+  <section className=' mt-10'>
+
+<div className="relative text-center p-2">
+  <h2 className="text-2xl text-dark p-1">Meet the team </h2>
+  <div className="absolute bottom-0 left-1/2 bg-dark rounded-full h-[7px] w-[60px] transform -translate-x-1/2"></div>
+</div>
+    
+    <div className=' flex justify-around items-center gap-4 mt-10 p-5'>
+        <div className=' w-[295px] h-[520px]  shadow-2xl text-center '>
+            <img src={frame1} alt="" className='  ' />
+            <h2 className=" p-3 text-2xl text-darker font-semibold ">John Doe</h2>
+            <p className=' text-[18px]  p-3 text-darker '>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero exercitationem dignissimos harum ipsam odio, facere architecto.</p>
+        </div>
+   
+    
+
+
+
+        <div className=' w-[295px] h-[520px]  shadow-xl text-center '>
+            <img src={frame2} alt="" className='  ' />
+            <h2 className=" p-3 text-2xl text-darker font-semibold ">John Doe </h2>
+            <p className=' text-[18px] p-3  text-darker '>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero exercitationem dignissimos harum ipsam odio, facere architecto.</p>
+        </div>
+    
+
+
+
+
+    
+        <div className=' w-[295px] h-[520px]  shadow-xl text-center '>
+            <img src={frame3} alt="" className='  ' />
+            <h2 className=" p-3 text-2xl  text-darker font-semibold ">John Doe </h2>
+            <p className=' text-[18px]  p-3 text-darker '>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero exercitationem dignissimos harum ipsam odio, facere architecto.</p>
+        </div>
+        </div>
+
+  </section>
+  )
+}
+
+export default Who
