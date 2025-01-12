@@ -24,7 +24,7 @@ function LoginPage() {
     <div>
        <section className=' flex justify-center items-center'>
     <div className=' w-1/3 p-5'>
-    <img src={logo} alt="" className='w-[100px] m-auto md:w-[100px] mt-3' />
+    <img src={logo} alt="" className='w-[80px] m-auto md:w-[70px] mt-3' />
       <h2 className="text-[32px] text-dark text-center">Healthical</h2>
       <img src={doc} alt="" />
     </div>
@@ -39,8 +39,8 @@ function LoginPage() {
          Patient 
           </button>
           <button
-            onClick={(e) => handleClick('login', e)} // Pass event to handleClick function
-            className={`w-[200px] border-[1px] h-[45px]  rounded-full  focus:text-white  ${currentUsers === 'login' ? 'bg-dark text-white opacity-100' : ''}`}
+            onClick={(e) => handleClick('login', e)} 
+className={`w-[200px] border-[1px] h-[45px]  rounded-full  focus:text-white  ${currentUsers === 'login' ? 'bg-dark text-white opacity-100' : ''}`}
           >
           Hospital
           </button>
