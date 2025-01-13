@@ -7,8 +7,8 @@ function Footer() {
     <div  className=' flex items-center justify-center gap-20 flex-wrap: nowrap;'>
  <div>
     <h2 className="font-bold text-[20px] text-white ">Company Info</h2>
-     <p className="text-gray-400 text-[18px] ">About Us </p>
-     <p className="text-gray-400 text-[18px] ">Team </p>
+     <p className="text-gray-400 text-[16px] ">About Us </p>
+     <p className="text-gray-400 text-[16px] ">Team </p>
  </div>
 
  <div>
